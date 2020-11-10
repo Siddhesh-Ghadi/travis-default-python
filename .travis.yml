@@ -17,7 +17,7 @@ lanuage: python
 
 script:
   - ls -la ~/virtualenv
-  - cat ~/build.sh|grep "*with_system_site_packages*"
+  - cat ~/build.sh
   - ls -ls /usr/bin/python*
   - python --version
   - python2 --version
