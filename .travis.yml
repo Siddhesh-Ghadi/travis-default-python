@@ -12,9 +12,12 @@ jobs:
     - dist: focal
     - arch: ppc64le
       dist: focal
-      
+
+lanuage: python
+
 script:
   - ls -la ~/virtualenv
+  - cat build.sh|grep "*with_system_site_packages*"
   - ls -ls /usr/bin/python*
   - python --version
   - python2 --version
