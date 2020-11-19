@@ -32,7 +32,8 @@ jobs:
 #lanuage: python
 
 script:
-  - sudo apt install python-dev python3-dev
+  - sudo apt update -y
+  - sudo apt install python-dev python3-dev -y
   - ls -la ~/virtualenv
   - python --version
   - python2 --version
