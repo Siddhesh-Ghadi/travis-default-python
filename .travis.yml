@@ -13,7 +13,7 @@ jobs:
     - arch: ppc64le
       dist: focal
 
-lanuage: python
+#lanuage: python
 
 script:
   - ls -la ~/virtualenv
